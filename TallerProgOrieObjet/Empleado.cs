@@ -55,10 +55,10 @@ namespace TallerProgOrieObjet
     public class EmpleadoPorHoras : Empleado
     {
         
-        public int HorasTrabajadas { get; set; }
+        public double HorasTrabajadas { get; set; }
 
         
-        public EmpleadoPorHoras(string nombre, double salarioBase, int horasTrabajadas)
+        public EmpleadoPorHoras(string nombre, double salarioBase, double horasTrabajadas)
             : base(nombre, salarioBase)
         {
             HorasTrabajadas = horasTrabajadas;
